@@ -6,7 +6,7 @@ const Counter = () => {
 
   return (
     <div>
-      <h1>Count; {count}</h1>
+      <h1>Count: {count}</h1>
       <button onClick={increase}>증가</button>
       <button onClick={decrease}>감소</button>
     </div>
